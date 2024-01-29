@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
 
+import { JsonPipe } from '@angular/common';
 @Component({
   standalone: true,
-  imports: [],
+  imports: [
+    JsonPipe
+  ],
   templateUrl: './dynamic-page.component.html',
   styles: ``
 })
