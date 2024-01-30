@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 interface MenuItem {
   title: string,
@@ -12,6 +13,7 @@ interface MenuItem {
   standalone: true,
   imports: [
     CommonModule,
+    RouterModule
   ],
   templateUrl: `./sideMenu.component.html`,
   styleUrl: './sideMenu.component.css',
